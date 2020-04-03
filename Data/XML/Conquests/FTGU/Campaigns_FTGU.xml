@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+
+
+    
+<!-- *********************************************************************** -->
+<!-- ******************* SANDBOX CAMPAIGN "From The Ground Up" ************* -->
+<!-- *********************************************************************** -->
+
+
+
+
+	
+
+	<Campaign Name="Sandbox_FTGU_Empire">
+
+		<Campaign_Set> Sandbox_FTGU </Campaign_Set>
+		<Sort_Order>29</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_FTGU </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FTGU </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+				Abregado_Rae,
+				AetenII, 
+				Alderaan, 
+				AlzocIII, 
+				Anaxes, 
+				Atzerri, 
+				Bespin, 
+				Bestine, 
+				Bonadan, 
+				Bothawui, 
+				Byss, 
+				Carida, 
+				Corellia, 
+				Corulag, 
+				Coruscant, 
+				Dagobah, 
+				Dantooine, 
+				Dathomir, 
+				Endor, 
+				Eriadu, 
+				Felucia, 
+				Fondor, 
+				Fresia, 
+				Geonosis, 
+				Honoghr, 
+				Hoth, 
+				Hypori, 
+				Ilum, 
+				Jabiim, 
+				Kamino, 
+				Kashyyyk, 
+				Kessel, 
+				Korriban, 
+				Kuat, 
+				Manaan, 
+				Mandalore, 
+				MonCalimari, 
+				Mustafar, 
+				Muunilinst, 
+				Myrkr, 
+				Naboo, 
+				NalHutta, 
+				Polus,
+				Ryloth, 
+				Saleucami, 
+				Shola, 
+				Sullust, 
+				Taris, 
+				Tatooine, 
+				The_Maw, 
+				Thyferra, 
+				Utapau, 
+				VergessoAsteroids, 
+				Wayland, 
+				Yavin 
+		</Locations>
+
+        <Trade_Routes>
+		Abregado_Rae_Bestine,
+		Abregado_Rae_Byss,
+		Abregado_Rae_Fondor,
+		Abregado_Rae_Thyferra,
+		AetenII_Anaxes,
+		AetenII_Carida,
+		AetenII_Fresia,
+		AetenII_Kashyyyk,
+		AetenII_Manaan,
+		AetenII_Myrkr,
+		Alderaan_Corellia,
+		Alderaan_Kuat,
+		AlzocIII_Ilum,
+		AlzocIII_Carida,
+		AlzocIII_Jabiim
+		AlzocIII_Muunilinst,
+		Anaxes_Corulag,
+		Anaxes_Carida,
+		Anaxes_Fresia,
+		Atzerri_Bestine,
+		Atzerri_Endor,
+		Atzerri_Taris,
+		Bespin_Endor,
+		Bespin_Geonosis,
+		Bespin_Hoth,
+		Bespin_Mustafar,
+		Bestine_Byss,
+		Bestine_Taris,
+		Bonadan_Korriban,
+		Bonadan_MonCalimari,
+		
+	    </Trade_Routes>
+		
+		<Home_Location> Rebel, MonCalimari </Home_Location>
+		<Home_Location> Empire, Kuat </Home_Location>
+
+        <Starting_Active_Player> Empire </Starting_Active_Player>
+		
+		<Rebel_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_Rebel.xml</Rebel_Story_Name>
+        <Empire_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_Empire.xml</Empire_Story_Name>
+		
+		<AI_Player_Control> Rebel, GenericAI </AI_Player_Control>
+		<AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>
+		
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+		
+		
+		<!-- MonCalimari Space Forces -->
+
+		<!-- MonCalimari Land Forces -->
+
+		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<!-- Empire Starting Forces -->
+		
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 3 </Max_Tech_Level>
+		
+		
+		<!-- Kuat Space Forces -->
+
+		<!-- Kuat Land Forces -->
+
+		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		</Campaign>	
+		
+	<Campaign Name="Sandbox_FTGU_Rebel">
+
+		<Campaign_Set> Sandbox_FTGU </Campaign_Set>
+		<Sort_Order>29</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_FTGU </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FTGU </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model, 
+				Abregado_Rae,
+				AetenII, 
+				Alderaan, 
+				AlzocIII, 
+				Anaxes, 
+				Atzerri, 
+				Bespin, 
+				Bestine, 
+				Bonadan, 
+				Bothawui, 
+				Byss, 
+				Carida, 
+				Corellia, 
+				Corulag, 
+				Coruscant, 
+				Dagobah, 
+				Dantooine, 
+				Dathomir, 
+				Endor, 
+				Eriadu, 
+				Felucia, 
+				Fondor, 
+				Fresia, 
+				Geonosis, 
+				Honoghr, 
+				Hoth, 
+				Hypori, 
+				Ilum, 
+				Jabiim, 
+				Kamino, 
+				Kashyyyk, 
+				Kessel, 
+				Korriban, 
+				Kuat, 
+				Manaan, 
+				Mandalore, 
+				MonCalimari, 
+				Mustafar, 
+				Muunilinst, 
+				Myrkr, 
+				Naboo, 
+				NalHutta, 
+				Polus,
+				Ryloth, 
+				Saleucami, 
+				Shola, 
+				Sullust, 
+				Taris, 
+				Tatooine, 
+				The_Maw, 
+				Thyferra, 
+				Utapau, 
+				VergessoAsteroids, 
+				Wayland, 
+				Yavin 
+		</Locations>
+
+        <Trade_Routes>
+		Abregado_Rae_Bestine,
+		Abregado_Rae_Byss,
+		Abregado_Rae_Fondor,
+		Abregado_Rae_Thyferra,
+		AetenII_Carida,
+		AetenII_Fresia,
+		AetenII_Kashyyyk,
+		AetenII_Myrkr,
+		Alderaan_Corellia,
+		Alderaan_Kuat,
+		AlzocIII_Ilum,
+		AlzocIII_Carida,
+		AlzocIII_Muunilinst,
+		Anaxes_Corulag,
+		Anaxes_Carida,
+		Atzerri_Bestine,
+		Atzerri_Endor,
+		Atzerri_Taris,
+		Bespin_Endor,
+		Bespin_Geonosis,
+		Bespin_Hoth,
+		Bespin_Mustafar,
+		Bestine_Byss,
+		Bestine_Taris,
+		Bonadan_Korriban,
+		Bonadan_MonCalimari,
+
+		
+	    </Trade_Routes>
+		
+		<Home_Location> Rebel, MonCalimari </Home_Location>
+		<Home_Location> Empire, Kuat </Home_Location>
+
+        <Starting_Active_Player> rebel </Starting_Active_Player>
+		
+		<Rebel_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_Rebel.xml</Rebel_Story_Name>
+        <Empire_Story_Name>Conquests\FTGU\Story_Plots_Sandbox_FTGU_Empire.xml</Empire_Story_Name>
+		
+		<AI_Player_Control> Rebel, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, GenericAI </AI_Player_Control>
+		
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+		
+		
+		<!-- MonCalimari Space Forces -->
+
+		<!-- MonCalimari Land Forces -->
+
+		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<!-- Empire Starting Forces -->
+		
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+		
+		
+		<!-- Kuat Space Forces -->
+
+		<!-- Kuat Land Forces -->
+
+		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+		</Campaign>	
+	 
+ </Campaigns>
