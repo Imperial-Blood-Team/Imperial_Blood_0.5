@@ -266,7 +266,7 @@
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>15</Damage>
+		<Damage>45</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect unit health w/ size-->
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>52</Build_Cost_Credits>
@@ -288,9 +288,9 @@
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		<Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
-        <!-- AI  Changed to 15 soldiers with 5 per troop -->
-		<Company_Units> Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,Squad_Rebel_Trooper,Squad_Rebel_Trooper,Squad_Rebel_Trooper</Company_Units>
-		<Max_Squad_Size> 5 </Max_Squad_Size>
+        <!-- 1 Plex, 8 Reg -->
+		<Company_Units> Squad_Plex_Soldier, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+		<Max_Squad_Size> 9 </Max_Squad_Size>
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 		<Land_Model_Name>RI_INFANTRY.ALO</Land_Model_Name>
@@ -419,7 +419,7 @@
 		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>8</Damage>
+		<Damage>36</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>100</Build_Cost_Credits>
@@ -429,7 +429,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -438,8 +438,8 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<Company_Units> Rebel_Infiltrator, Rebel_Infiltrator</Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> Rebel_Infiltrator, Rebel_Infiltrator, Rebel_Infiltrator, Rebel_Infiltrator, Rebel_Infiltrator, Rebel_Infiltrator, Rebel_Infiltrator, Rebel_Infiltrator, Rebel_Infiltrator</Company_Units>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
 
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>no</Is_Escort>

@@ -107,10 +107,10 @@
 	</HeroCompany>
 
 	<HeroCompany Name="Probe_Droid_Team">
-		<GUI_Row>1</GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Text_ID>TEXT_HERO_UNIT_PROBE_DROID</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Underworld</Affiliation>
 		<Build_Cost_Credits>30</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
@@ -229,11 +229,11 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
 		<Required_Planets></Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
+		<Company_Transport_Unit>R_Nebulon_B_Frigate</Company_Transport_Unit>
 		<Company_Units>Generic_Fleet_Commander_Rebel</Company_Units>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 		<SFXEvent_Build_Complete>GUI_R_Fleet_Commander_Complete</SFXEvent_Build_Complete>
@@ -268,10 +268,10 @@
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
 		<Combat_Power_Value>0</Combat_Power_Value>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
 		<Required_Planets></Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -298,6 +298,7 @@
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 500 </Score_Cost_Credits>
 	</HeroCompany>
+	
 	
 	<HeroCompany Name="Field_Com_Rebel_Team">
 		<GUI_Row>1</GUI_Row>

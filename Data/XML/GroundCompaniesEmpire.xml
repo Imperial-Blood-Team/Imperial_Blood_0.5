@@ -390,7 +390,6 @@
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
 
-
 	<GroundCompany Name="Imperial_Anti_Infantry_Brigade_Small">
 		<Variant_Of_Existing_Type>Imperial_Anti_Infantry_Brigade</Variant_Of_Existing_Type>
 		<Company_Units> TIE_Crawler, TIE_Crawler, TIE_Crawler </Company_Units>
@@ -401,18 +400,16 @@
 	</GroundCompany>
 
 
-	
-	
-	<GroundCompany Name="Imperial_Stormtrooper_Squad">
+	<GroundCompany Name="Imperial_Scout_Trooper_Squad">
 		<LOD_Bias>5</LOD_Bias>
-		<Text_ID>TEXT_IMPERIAL_STORMTROOPER_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_SCOUT_TROOPER</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SCOUTTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>18</Damage>
+		<Damage>4</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
 		<Affiliation>Empire, Underworld</Affiliation>
 		<Build_Cost_Credits>60</Build_Cost_Credits>
@@ -433,7 +430,76 @@
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
         <!-- AI  Changed to 18 troopers in squads of 9 -->
-		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Company_Units> Scout_Trooper_No_Bike, Scout_Trooper_No_Bike, Scout_Trooper_No_Bike, Scout_Trooper_No_Bike</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<GUI_Model_Name>EI_BIKER.ALO</GUI_Model_Name>
+		<Land_Model_Name>EI_BIKER.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+	
+	
+	<GroundCompany Name="Imperial_Stormtrooper_Squad">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_IMPERIAL_STORMTROOPER_SQUAD</Text_ID>
+		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>45</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+		<Affiliation>Empire, Underworld</Affiliation>
+		<Build_Cost_Credits>60</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
+        <!-- AI  Changed to 18 troopers in squads of 9 -->
+		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		<GUI_Model_Name>EI_TROOPER.ALO</GUI_Model_Name>

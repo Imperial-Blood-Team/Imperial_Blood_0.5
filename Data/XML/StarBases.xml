@@ -44,7 +44,7 @@
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 
 		<Tactical_Buildable_Objects_Campaign> 
@@ -206,7 +206,7 @@
 		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 1</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -325,7 +325,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>30</Size_Value>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Base_Level>3</Base_Level>
 		<Prev_Level_Base>Rebel_Star_Base_2</Prev_Level_Base>
 		<Next_Level_Base>Rebel_Star_Base_4</Next_Level_Base>
@@ -362,7 +362,7 @@
 		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 1</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -486,7 +486,7 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>40</Size_Value>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Base_Level>4</Base_Level>
 		<Prev_Level_Base>Rebel_Star_Base_3</Prev_Level_Base>
 		<Next_Level_Base>Rebel_Star_Base_5</Next_Level_Base>
@@ -526,7 +526,7 @@
 		<Starting_Spawned_Units_Tech_0>Nebulon_B_Frigate, 1</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Nebulon_B_Frigate, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -660,7 +660,7 @@
 		<Build_Time_Seconds>150</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>50</Size_Value>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Base_Level>5</Base_Level>
 		<Prev_Level_Base>Rebel_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
@@ -700,7 +700,7 @@
 		<Starting_Spawned_Units_Tech_0>Nebulon_B_Frigate, 2</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Nebulon_B_Frigate, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -868,7 +868,7 @@
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Empire,
@@ -1008,7 +1008,7 @@
 		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -1119,7 +1119,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>30</Size_Value>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Base_Level>3</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
@@ -1154,7 +1154,7 @@
 		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -1272,7 +1272,7 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>40</Size_Value>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Base_Level>4</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
@@ -1310,7 +1310,7 @@
 		<Starting_Spawned_Units_Tech_0>Acclamator_Assault_Ship, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Acclamator_Assault_Ship, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 		
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -1426,7 +1426,7 @@
 		<Build_Time_Seconds>150</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>50</Size_Value>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Base_Level>5</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
@@ -1464,7 +1464,7 @@
 		<Starting_Spawned_Units_Tech_0>Acclamator_Assault_Ship, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Acclamator_Assault_Ship, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 		
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,

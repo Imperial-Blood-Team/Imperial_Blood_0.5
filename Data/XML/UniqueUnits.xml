@@ -1159,9 +1159,316 @@ HP_EX_WT_91, HP_EX_WT_92, HP_EX_WT_93, HP_EX_WT_94, HP_EX_WT_95, HP_EX_WT_96, HP
 		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
 	</UniqueUnit>
 
+<!-- Empire Generic Fleet Officer -->
+
+	<UniqueUnit Name="Tier_1_Fleet_Officer">
+		<Variant_Of_Existing_Type>Acclamator_Assault_Ship</Variant_Of_Existing_Type>
+		
+		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
+		
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		
+		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
+
+		<Text_ID>TEXT_HERO_UNIT_FLEET_EMPIRE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_TRAITS TEXT_TOOLTIP_TRAIT_COMMAND3 TEXT_TOOLTIP_BIO  TEXT_TOOLTIP_FLEET_COMMANDER TEXT_TOOLTIP_COMMANDS TEXT_TOOLTIP_COMMAND_VICTORY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
+
+		<SpaceBehavior> ABILITY_COUNTDOWN, SPAWN_SQUADRON, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Lua_Script></Lua_Script>
+		<Tech_Level>1</Tech_Level>
+		<Affiliation>Empire, Underworld</Affiliation>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<GUI_Row> 1 </GUI_Row>
+		<Icon_Name>i_button_EI_fleet_commander_bust.tga</Icon_Name>
+
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 
 
-	
+		<CategoryMask> Frigate | SpaceHero | AntiFrigate </CategoryMask>
+
+		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Abilities SubObjectList="Yes">
+
+			
+			<Combat_Bonus_Ability Name="Fleetofficer_Self_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Victory_Officer </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Officer_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.5</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.5</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.5</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.5</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.5</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+		</Abilities>
+		
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		
+	<Lua_Script>FleetCommander</Lua_Script>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Tier_2_Fleet_Officer">
+		<Variant_Of_Existing_Type>Venator_Star_Destroyer</Variant_Of_Existing_Type>
+		
+		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
+		
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+
+		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
+
+		<Text_ID>TEXT_HERO_UNIT_FLEET_EMPIRE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_TRAITS TEXT_TOOLTIP_TRAIT_COMMAND3 TEXT_TOOLTIP_BIO  TEXT_TOOLTIP_FLEET_COMMANDER TEXT_TOOLTIP_COMMANDS TEXT_TOOLTIP_COMMAND_VICTORY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
+
+		<SpaceBehavior> ABILITY_COUNTDOWN, SPAWN_SQUADRON, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Lua_Script></Lua_Script>
+		<Tech_Level>1</Tech_Level>
+		<Affiliation>Empire</Affiliation>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<GUI_Row> 1 </GUI_Row>
+		<Icon_Name>i_button_EI_fleet_commander_bust.tga</Icon_Name>
+
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+
+
+		<CategoryMask> Frigate | SpaceHero | AntiFrigate </CategoryMask>
+
+		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>4</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Abilities SubObjectList="Yes">
+
+			
+			<Combat_Bonus_Ability Name="Fleetofficer_Self_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Victory_Officer </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Officer_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.10</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.10</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+		</Abilities>
+		
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		
+	<Lua_Script>FleetCommander</Lua_Script>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Tier_3_Fleet_Officer">
+		<Variant_Of_Existing_Type>U_Victory_II_Star_Destroyer</Variant_Of_Existing_Type>
+		
+		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
+		
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		
+		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
+
+		<Text_ID>TEXT_HERO_UNIT_FLEET_EMPIRE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_TRAITS TEXT_TOOLTIP_TRAIT_COMMAND3 TEXT_TOOLTIP_BIO  TEXT_TOOLTIP_FLEET_COMMANDER TEXT_TOOLTIP_COMMANDS TEXT_TOOLTIP_COMMAND_VICTORY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
+
+		<SpaceBehavior> ABILITY_COUNTDOWN, SPAWN_SQUADRON, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Lua_Script></Lua_Script>
+		<Tech_Level>1</Tech_Level>
+		<Affiliation>Empire</Affiliation>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<GUI_Row> 1 </GUI_Row>
+		<Icon_Name>i_button_EI_fleet_commander_bust.tga</Icon_Name>
+
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+
+
+		<CategoryMask> Frigate | SpaceHero | AntiFrigate </CategoryMask>
+
+		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Abilities SubObjectList="Yes">
+
+			
+			<Combat_Bonus_Ability Name="Fleetofficer_Self_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Victory_Officer </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Officer_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.15</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+		</Abilities>
+		
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		
+	<Lua_Script>FleetCommander</Lua_Script>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Tier_4_Fleet_Officer">
+		<Variant_Of_Existing_Type>U_Imperial_II_Star_Destroyer</Variant_Of_Existing_Type>
+		
+		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
+		
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		
+		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
+
+		<Text_ID>TEXT_HERO_UNIT_FLEET_EMPIRE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_TRAITS TEXT_TOOLTIP_TRAIT_COMMAND3 TEXT_TOOLTIP_BIO  TEXT_TOOLTIP_FLEET_COMMANDER TEXT_TOOLTIP_COMMANDS TEXT_TOOLTIP_COMMAND_VICTORY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
+
+		<SpaceBehavior> ABILITY_COUNTDOWN, SPAWN_SQUADRON, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Lua_Script></Lua_Script>
+		<Tech_Level>1</Tech_Level>
+		<Affiliation>Empire</Affiliation>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<GUI_Row> 1 </GUI_Row>
+		<Icon_Name>i_button_EI_fleet_commander_bust.tga</Icon_Name>
+
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+
+
+		<CategoryMask> Frigate | SpaceHero | AntiFrigate </CategoryMask>
+
+		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Abilities SubObjectList="Yes">
+
+			
+			<Combat_Bonus_Ability Name="Fleetofficer_Self_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Victory_Officer </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Officer_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.20</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.20</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.20</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+		</Abilities>
+		
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		
+	<Lua_Script>FleetCommander</Lua_Script>
+	</UniqueUnit>
+
 	<!-- Home One is used by Admiral Ackbar (Rebel Major Hero) during space battles - released during story arc -->
 	<UniqueUnit Name="Home_One">
 		<Text_ID>TEXT_UNIT_HOME_ONE</Text_ID>
