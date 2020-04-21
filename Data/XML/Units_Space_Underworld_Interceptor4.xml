@@ -8,8 +8,8 @@
 
 	<SpaceUnit Name="Interceptor4_Frigate">
 		<Text_ID>TEXT_UNIT_INTERCEPTOR4_FRIGATE</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Corellian_Corvette Nebulon_B_Frigate  </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> B-wing TIE_Defender MC30_Frigate </Encyclopedia_Vulnerable_To>
+		<!--<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Corellian_Corvette Nebulon_B_Frigate  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> B-wing TIE_Defender MC30_Frigate </Encyclopedia_Vulnerable_To>-->
 		<Encyclopedia_Text> TEXT_TOOLTIP_INTERCEPTOR4_FRIGATE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
@@ -25,14 +25,14 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Shield_Points>750</Shield_Points>
-		<Tactical_Health>2500</Tactical_Health>
+		<Tactical_Health>1100</Tactical_Health>
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>2.9</Max_Speed>
-		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
+		<Max_Speed>3.9</Max_Speed>
+		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>

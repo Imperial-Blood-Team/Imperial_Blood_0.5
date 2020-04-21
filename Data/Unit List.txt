@@ -1,0 +1,48 @@
+Empire
+Tier 4
+SSD
+Tier 3
+Secutor
+ISDII
+ISDI
+Tier 2
+VSDII
+Gladiator
+Interdictor
+Tier 1
+Arquitens
+Quasar
+Carrack
+Raider
+
+Rebels
+Tier 3
+MC-80 Home One Type
+MC-80
+Starhawk
+Tier 2
+MC40a
+Mc-30c
+Assualt Frigate
+Tier 1
+Nebulon-B
+Quasar
+CR-90
+DP-20
+
+ASR
+Tier 4
+SSD
+Tier 3
+ISDII
+ISDI
+Tier 2
+VSDII
+Venator
+Acclamator
+Interdictor
+Tier 1
+Nebulon-B
+Arquitens
+Carrack
+CR-90

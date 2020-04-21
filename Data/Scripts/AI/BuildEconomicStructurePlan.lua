@@ -50,7 +50,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"StructureForce",
-		"Rebel_Ground_Mining_Facility | Empire_Ground_Mining_Facility = 1"
+		"Rebel_Ground_Mining_Facility | Empire_Ground_Mining_Facility | Tax_Buildings | Support_Buildings | Imperial_Capital | Imperial_Capital | KDY_HQ | MCS_HQ = 1"
 	}
 	}
 

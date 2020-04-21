@@ -14,12 +14,13 @@
     
 	<GoalProposalFunctionSets>
 		SystemFunctions
-		AI_GoalSet_Underworld_Galactic
+		AI_GoalSet_ExpansionGeneric_Galactic
 		AI_GoalSet_ExpansionGeneric_Land
-		AI_GoalSet_Underworld_Land
-		AI_GoalSet_Underworld_Space
+		AI_GoalSet_Empire_Land
 		BasicOffensiveGalacticSet
 		BasicDefensiveGalacticSet
+		BasicInfrastructureGalacticSet
+		BasicInformationGalacticSet
 		BasicOffensiveSpaceSet
 		BasicLandGoalSet
 	</GoalProposalFunctionSets>
@@ -32,7 +33,7 @@
             Test_Land
         </Land>
 		<Galactic>
-			Underworld_Galactic_Default
+			Basic_Empire_Default
 			Shutdown_Offense
 		</Galactic>
 	</Templates>

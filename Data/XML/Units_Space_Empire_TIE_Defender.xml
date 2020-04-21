@@ -39,9 +39,9 @@
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<Shield_Points>70</Shield_Points>
-		<Tactical_Health>100</Tactical_Health>
-		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
+		<Shield_Points>18</Shield_Points>
+		<Tactical_Health>15</Tactical_Health>
+		<Shield_Refresh_Rate>0.9</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Armor_Type> Armor_Fighter </Armor_Type>

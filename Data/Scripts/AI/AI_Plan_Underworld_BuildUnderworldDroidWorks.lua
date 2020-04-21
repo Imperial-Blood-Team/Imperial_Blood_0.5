@@ -51,7 +51,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"BaseForce",
-		"U_Ground_Droid_Works = 1"
+		"E_Ground_Light_Vehicle_Factory = 1"
 	}
 	}
 

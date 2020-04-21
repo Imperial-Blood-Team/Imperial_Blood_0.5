@@ -751,7 +751,7 @@
 
 
 		<Allies />
-		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Mandalorian</Enemies>
+		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Mandalorian </Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -839,7 +839,7 @@
 		<Corruption_Tactical_Build_Pad_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Price_Multipliers>
 		<Easily_Bribed> Yes </Easily_Bribed>
 
-		<Scatters_From_Crushers> false </Scatters_From_Crushers>
+		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		
 		<Infantry_Icon_Name>i_button_storm_trooper.tga</Infantry_Icon_Name>
 		<Vehicle_Icon_Name>i_e_vehicle.tga</Vehicle_Icon_Name>
@@ -1515,7 +1515,7 @@
 		<!-- End Droid Advisor Speech/Text -->
 
 		<Allies />
-		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts, Mandalorian</Enemies>
+		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts, Mandalorian </Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -1552,7 +1552,6 @@
 		</Automatic_Planetary_Corruption_Upgrade_Type>
 
 	</Faction>
-
 
 
 
@@ -1593,7 +1592,7 @@
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 
 		<Allies />
-		<Enemies>Empire, Rebel, Hostile, Sarlacc, Underworld, Hutts</Enemies>
+		<Enemies>Empire, Rebel, Hostile, Sarlacc, Underworld, Hutts </Enemies>
 		<Easily_Bribed> Yes </Easily_Bribed>
 
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -1677,7 +1676,7 @@
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
 		<Allies>Neutral</Allies>
-		<Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld</Enemies>
+		<Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld </Enemies>
 
 	</Faction>
 
@@ -1715,7 +1714,7 @@
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
 		<Allies />
-		<Enemies>Empire, Rebel, Pirates, Hostile, Underworld, Hutts, Mandalorian</Enemies>
+		<Enemies>Empire, Rebel, Pirates, Hostile, Underworld, Hutts, Mandalorian </Enemies>
 
 	</Faction>
 

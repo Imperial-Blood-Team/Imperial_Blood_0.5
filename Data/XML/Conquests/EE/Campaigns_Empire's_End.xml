@@ -176,9 +176,11 @@
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
 		<AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>
 		<AI_Player_Control> Underworld, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
 		
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>False</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -203,7 +205,7 @@
 		<!-- Bothawui Space Forces -->
 		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bothawui, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Bothawui Land Forces -->
 		<Starting_Forces> Rebel, Bothawui, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
@@ -212,7 +214,7 @@
 		<!-- Chandrila Space Forces -->
 		<Starting_Forces> Rebel, Chandrila, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Chandrila Land Forces -->
 		<Starting_Forces> Rebel, Chandrila, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_Infantry_Squad </Starting_Forces>
@@ -221,7 +223,7 @@
 		<!-- Dantooine Space Forces -->
 		<Starting_Forces> Rebel, Dantooine, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Dantooine, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Dantooine Land Forces -->
 		<Starting_Forces> Rebel, Dantooine, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
@@ -229,8 +231,12 @@
 		
 		<!-- Endor Space Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, MC80_Home_One_Type </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, R_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, R_Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, CR-90 </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, CR-90 </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, DP-20 </Starting_Forces>
 		<!-- Endor Land Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
@@ -239,7 +245,7 @@
 		<!-- Lothal Space Forces -->
 		<Starting_Forces> Rebel, Lothal, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Lothal, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Lothal, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Lothal, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Lothal Land Forces -->
 		<Starting_Forces> Rebel, Lothal, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Lothal, Rebel_Infantry_Squad </Starting_Forces>
@@ -248,7 +254,7 @@
 		<!-- MonCalimari Space Forces -->
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- MonCalimari Land Forces -->
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
@@ -257,7 +263,7 @@
 		<!-- Naboo Space Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Naboo, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Naboo Land Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Rebel_Infantry_Squad </Starting_Forces>
@@ -266,7 +272,7 @@
 		<!-- New_Alderaan Space Forces -->
 		<Starting_Forces> Rebel, New_Alderaan, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, New_Alderaan, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, New_Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, New_Alderaan, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- New_Alderaan Land Forces -->
 		<Starting_Forces> Rebel, New_Alderaan, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, New_Alderaan, Rebel_Infantry_Squad </Starting_Forces>
@@ -275,7 +281,7 @@
 		<!-- Phindar Space Forces -->
 		<Starting_Forces> Rebel, Phindar, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Phindar, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Phindar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Phindar, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Phindar Land Forces -->
 		<Starting_Forces> Rebel, Phindar, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Phindar, Rebel_Infantry_Squad </Starting_Forces>
@@ -284,7 +290,7 @@
 		<!-- Ryloth Space Forces -->
 		<Starting_Forces> Rebel, Ryloth, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Ryloth Land Forces -->
 		<Starting_Forces> Rebel, Ryloth, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
@@ -293,7 +299,7 @@
 		<!-- Scipio Space Forces -->
 		<Starting_Forces> Rebel, Scipio, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Scipio, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Scipio, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Scipio, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Scipio Land Forces -->
 		<Starting_Forces> Rebel, Scipio, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Scipio, Rebel_Infantry_Squad </Starting_Forces>
@@ -302,7 +308,7 @@
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Rebel, Sullust, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Sullust Land Forces -->
 		<Starting_Forces> Rebel, Sullust, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Rebel_Infantry_Squad </Starting_Forces>
@@ -311,7 +317,7 @@
 		<!-- Takodana Space Forces -->
 		<Starting_Forces> Rebel, Takodana, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Takodana, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Takodana, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Takodana, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Takodana Land Forces -->
 		<Starting_Forces> Rebel, Takodana, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Takodana, Rebel_Infantry_Squad </Starting_Forces>
@@ -321,28 +327,34 @@
 		<!-- Empire Starting Forces -->
 		
 		<Starting_Credits> Empire,  8000 </Starting_Credits>
-		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Empire, 1 </Max_Tech_Level>
+		<Starting_Tech_Level> Empire, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
 		<!-- Abregado_Rae Space Forces -->
-		<Starting_Forces> Empire, Abregado_Rae, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Abregado_Rae, E_Victory_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Abregado_Rae, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Abregado_Rae, Tector_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Abregado_Rae, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Abregado_Rae, Carrack </Starting_Forces>
 		<!-- Abregado_Rae Land Forces -->
 		<Starting_Forces> Empire, Abregado_Rae, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Abregado_Rae, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Abregado_Rae, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Concord_Dawn Space Forces -->
-		<Starting_Forces> Empire, Concord_Dawn, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Concord_Dawn, E_Victory_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Concord_Dawn, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Concord_Dawn, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Concord_Dawn, Carrack </Starting_Forces>
+		<Starting_Forces> Empire, Concord_Dawn, Carrack </Starting_Forces>
 		<!-- Concord_Dawn Land Forces -->
 		<Starting_Forces> Empire, Concord_Dawn, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Concord_Dawn, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Concord_Dawn, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Corellia Space Forces -->
-		<Starting_Forces> Empire, Corellia, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Corellia, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Corellia, E_Imperial_II_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, E_Victory_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Corellia, Interdictor_Cruiser </Starting_Forces>
 		<!-- Corellia Land Forces -->
 		<Starting_Forces> Empire, Corellia, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -357,16 +369,19 @@
 		<Starting_Forces> Empire, Entralla, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Eriadu Space Forces -->
-		<Starting_Forces> Empire, Eriadu, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Eriadu, E_Victory_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, E_Imperial_I_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Gladiator_Star_Destroyer </Starting_Forces>
 		<!-- Eriadu Land Forces -->
 		<Starting_Forces> Empire, Eriadu, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Eriadu, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Eriadu, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Fondor Space Forces -->
-		<Starting_Forces> Empire, Fondor, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Fondor, E_Victory_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Fondor, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Fondor, E_Imperial_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Fondor, Carrack </Starting_Forces>
 		<!-- Fondor Land Forces -->
 		<Starting_Forces> Empire, Fondor, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -381,7 +396,9 @@
 		<Starting_Forces> Empire, Jaemus, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Jakku Space Forces -->
-		<Starting_Forces> Empire, Jakku, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Jakku, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Jakku, Tector_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Jakku, E_Imperial_II_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Jakku, E_Victory_II_Star_Destroyer </Starting_Forces>
 		<!-- Jakku Land Forces -->
 		<Starting_Forces> Empire, Jakku, Imperial_Command_Center </Starting_Forces>
@@ -389,7 +406,7 @@
 		<Starting_Forces> Empire, Jakku, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Kamino Space Forces -->
-		<Starting_Forces> Empire, Kamino, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Kamino, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Kamino, E_Victory_II_Star_Destroyer </Starting_Forces>
 		<!-- Kamino Land Forces -->
 		<Starting_Forces> Empire, Kamino, Imperial_Command_Center </Starting_Forces>
@@ -397,16 +414,20 @@
 		<Starting_Forces> Empire, Kamino, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Kuat Space Forces -->
-		<Starting_Forces> Empire, Kuat, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, E_Victory_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, E_Imperial_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, E_Imperial_I_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Gladiator_Star_Destroyer </Starting_Forces>
 		<!-- Kuat Land Forces -->
 		<Starting_Forces> Empire, Kuat, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
 		
 		<!-- Mustafar Space Forces -->
-		<Starting_Forces> Empire, Mustafar, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Mustafar, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Mustafar, E_Victory_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Mustafar, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Mustafar, Carrack </Starting_Forces>
 		<!-- Mustafar Land Forces -->
 		<Starting_Forces> Empire, Mustafar, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Mustafar, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -414,7 +435,8 @@
 		
 		<!-- Scarif Space Forces -->
 		<Starting_Forces> Empire, Scarif, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Scarif, E_Victory_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Scarif, E_Imperial_I_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Scarif, Gladiator_Star_Destroyer </Starting_Forces>
 		<!-- Scarif Land Forces -->
 		<Starting_Forces> Empire, Scarif, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Scarif, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -639,7 +661,9 @@
 		
 		<!-- Klatooine Space Forces -->
 		<Starting_Forces> Hutts, Klatooine, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Hutts, Klatooine, E_Victory_II_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Hutts, Klatooine, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Hutts, Klatooine, Carrack </Starting_Forces>
+		<Starting_Forces> Hutts, Klatooine, CR-90 </Starting_Forces>
 		<!-- Klatooine Land Forces -->
 		<Starting_Forces> Hutts, Klatooine, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Hutts, Klatooine, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -862,8 +886,8 @@
 		
 		<!-- Bothawui Space Forces -->
 		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Bothawui, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bothawui, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, MC80_Home_One_Type </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Bothawui Land Forces -->
 		<Starting_Forces> Rebel, Bothawui, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
@@ -872,7 +896,7 @@
 		<!-- Chandrila Space Forces -->
 		<Starting_Forces> Rebel, Chandrila, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Chandrila Land Forces -->
 		<Starting_Forces> Rebel, Chandrila, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_Infantry_Squad </Starting_Forces>
@@ -881,7 +905,7 @@
 		<!-- Dantooine Space Forces -->
 		<Starting_Forces> Rebel, Dantooine, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Dantooine, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Dantooine Land Forces -->
 		<Starting_Forces> Rebel, Dantooine, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
@@ -890,7 +914,7 @@
 		<!-- Endor Space Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Endor Land Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
@@ -899,7 +923,7 @@
 		<!-- Lothal Space Forces -->
 		<Starting_Forces> Rebel, Lothal, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Lothal, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Lothal, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Lothal, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Lothal Land Forces -->
 		<Starting_Forces> Rebel, Lothal, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Lothal, Rebel_Infantry_Squad </Starting_Forces>
@@ -908,7 +932,7 @@
 		<!-- MonCalimari Space Forces -->
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- MonCalimari Land Forces -->
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
@@ -917,7 +941,7 @@
 		<!-- Naboo Space Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Naboo, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Naboo Land Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Rebel_Infantry_Squad </Starting_Forces>
@@ -926,7 +950,7 @@
 		<!-- New_Alderaan Space Forces -->
 		<Starting_Forces> Rebel, New_Alderaan, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, New_Alderaan, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, New_Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, New_Alderaan, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- New_Alderaan Land Forces -->
 		<Starting_Forces> Rebel, New_Alderaan, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, New_Alderaan, Rebel_Infantry_Squad </Starting_Forces>
@@ -935,7 +959,7 @@
 		<!-- Phindar Space Forces -->
 		<Starting_Forces> Rebel, Phindar, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Phindar, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Phindar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Phindar, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Phindar Land Forces -->
 		<Starting_Forces> Rebel, Phindar, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Phindar, Rebel_Infantry_Squad </Starting_Forces>
@@ -944,7 +968,7 @@
 		<!-- Ryloth Space Forces -->
 		<Starting_Forces> Rebel, Ryloth, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Ryloth Land Forces -->
 		<Starting_Forces> Rebel, Ryloth, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
@@ -953,7 +977,7 @@
 		<!-- Scipio Space Forces -->
 		<Starting_Forces> Rebel, Scipio, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Scipio, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Scipio, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Scipio, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Scipio Land Forces -->
 		<Starting_Forces> Rebel, Scipio, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Scipio, Rebel_Infantry_Squad </Starting_Forces>
@@ -962,7 +986,7 @@
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Rebel, Sullust, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Sullust Land Forces -->
 		<Starting_Forces> Rebel, Sullust, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Rebel_Infantry_Squad </Starting_Forces>
@@ -971,7 +995,7 @@
 		<!-- Takodana Space Forces -->
 		<Starting_Forces> Rebel, Takodana, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Takodana, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Takodana, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Takodana, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Takodana Land Forces -->
 		<Starting_Forces> Rebel, Takodana, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Takodana, Rebel_Infantry_Squad </Starting_Forces>
@@ -1523,7 +1547,7 @@
 		<!-- Bothawui Space Forces -->
 		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bothawui, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Bothawui Land Forces -->
 		<Starting_Forces> Rebel, Bothawui, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
@@ -1532,7 +1556,7 @@
 		<!-- Chandrila Space Forces -->
 		<Starting_Forces> Rebel, Chandrila, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Chandrila Land Forces -->
 		<Starting_Forces> Rebel, Chandrila, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Rebel_Infantry_Squad </Starting_Forces>
@@ -1541,7 +1565,7 @@
 		<!-- Dantooine Space Forces -->
 		<Starting_Forces> Rebel, Dantooine, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Dantooine, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Dantooine Land Forces -->
 		<Starting_Forces> Rebel, Dantooine, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
@@ -1550,7 +1574,7 @@
 		<!-- Endor Space Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Endor Land Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
@@ -1559,7 +1583,7 @@
 		<!-- Lothal Space Forces -->
 		<Starting_Forces> Rebel, Lothal, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Lothal, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Lothal, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Lothal, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Lothal Land Forces -->
 		<Starting_Forces> Rebel, Lothal, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Lothal, Rebel_Infantry_Squad </Starting_Forces>
@@ -1568,7 +1592,7 @@
 		<!-- MonCalimari Space Forces -->
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- MonCalimari Land Forces -->
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
@@ -1577,7 +1601,7 @@
 		<!-- Naboo Space Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Naboo, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Naboo Land Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Rebel_Infantry_Squad </Starting_Forces>
@@ -1586,7 +1610,7 @@
 		<!-- New_Alderaan Space Forces -->
 		<Starting_Forces> Rebel, New_Alderaan, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, New_Alderaan, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, New_Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, New_Alderaan, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- New_Alderaan Land Forces -->
 		<Starting_Forces> Rebel, New_Alderaan, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, New_Alderaan, Rebel_Infantry_Squad </Starting_Forces>
@@ -1595,7 +1619,7 @@
 		<!-- Phindar Space Forces -->
 		<Starting_Forces> Rebel, Phindar, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Phindar, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Phindar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Phindar, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Phindar Land Forces -->
 		<Starting_Forces> Rebel, Phindar, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Phindar, Rebel_Infantry_Squad </Starting_Forces>
@@ -1604,7 +1628,7 @@
 		<!-- Ryloth Space Forces -->
 		<Starting_Forces> Rebel, Ryloth, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Ryloth Land Forces -->
 		<Starting_Forces> Rebel, Ryloth, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
@@ -1613,7 +1637,7 @@
 		<!-- Scipio Space Forces -->
 		<Starting_Forces> Rebel, Scipio, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Scipio, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Scipio, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Scipio, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Scipio Land Forces -->
 		<Starting_Forces> Rebel, Scipio, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Scipio, Rebel_Infantry_Squad </Starting_Forces>
@@ -1622,7 +1646,7 @@
 		<!-- Sullust Space Forces -->
 		<Starting_Forces> Rebel, Sullust, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Sullust Land Forces -->
 		<Starting_Forces> Rebel, Sullust, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Rebel_Infantry_Squad </Starting_Forces>
@@ -1631,7 +1655,7 @@
 		<!-- Takodana Space Forces -->
 		<Starting_Forces> Rebel, Takodana, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Takodana, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Takodana, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Takodana, R_Nebulon_B_Frigate </Starting_Forces>
 		<!-- Takodana Land Forces -->
 		<Starting_Forces> Rebel, Takodana, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Takodana, Rebel_Infantry_Squad </Starting_Forces>

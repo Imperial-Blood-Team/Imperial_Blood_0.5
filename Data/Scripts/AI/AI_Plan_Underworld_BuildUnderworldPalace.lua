@@ -51,7 +51,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"BaseForce",
-		"U_Ground_Palace = 1"
+		"E_Ground_Heavy_Vehicle_Factory | E_Ground_Advanced_Vehicle_Factory = 1"
 	}
 	}
 

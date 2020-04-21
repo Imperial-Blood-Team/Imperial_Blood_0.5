@@ -890,12 +890,12 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 
-	<GroundVehicle Name="SPMAT_Walker">
+	<GroundVehicle Name="SPMA_Walker">
 		<LOD_Bias>1</LOD_Bias>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>125.0, 75.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>TEXT_UNIT_SPHAT_WALKER</Text_ID>
+		<Text_ID>TEXT_UNIT_SPMA_WALKER</Text_ID>
 		<Encyclopedia_Good_Against> UC_Rebel_Buildable_Anti_Vehicle_Turret UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T4B_Tank Plex_Soldier Destroyer_Droid</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SPMA</Encyclopedia_Text>
@@ -1086,8 +1086,8 @@
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
 
-	<GroundVehicle Name="SPMAT_Walker_Captured">
-		<Variant_Of_Existing_Type>SPMAT_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="SPMA_Walker_Captured">
+		<Variant_Of_Existing_Type>SPMA_Walker</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_chewbacca_spmat.tga</Icon_Name>
 	
 		<!-- MUST have same abilities PLUS EJECT_THIEF -->
@@ -1109,7 +1109,7 @@
 	</GroundVehicle>
 
 	<GroundVehicle Name="SPMAT_Walker_Death_Clone">
-		<Variant_Of_Existing_Type>SPMAT_Walker</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>SPMA_Walker</Variant_Of_Existing_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
       		

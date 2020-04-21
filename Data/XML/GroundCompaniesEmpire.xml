@@ -8,17 +8,17 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>40</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Underworld</Affiliation>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>50</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>3</Formation_Priority>
@@ -62,72 +62,9 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TANK</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		        
-		<Population_Value>1</Population_Value>
+		<Population_Value>3</Population_Value>
 	</GroundCompany>
-	
-	<GroundCompany Name="Imperial_Anti_Aircraft_Company">
-		<Text_ID>TEXT_IMPERIAL_ANTI_AIRCRAFT</Text_ID>
-		<Encyclopedia_Good_Against> Snowspeeder Y-wing </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> T4B_Tank MPTL </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>30</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>500</Build_Cost_Credits>
-		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>70</Build_Time_Seconds>
-		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>4</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Advanced_Vehicle_Factory</Required_Special_Structures>
-		<Required_Planets />
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Formation_Priority>5</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
-		<Ship_Class>tank</Ship_Class>
-		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>AT_AA_Walker, AT_AA_Walker, AT_AA_Walker</Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Icon_Name>i_button_ataa.tga</Icon_Name>
-		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_AT_AA</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_AA</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>500</Score_Cost_Credits>
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>MISSILE_SHIELD</Type>
-
-				<Effective_Radius>100</Effective_Radius>
-				<Recharge_Seconds>20</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<Encyclopedia_Text>TEXT_TOOLTIP_ATAA</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-		<Maintenance_Cost>0.05</Maintenance_Cost>
- 
-		<Population_Value>1</Population_Value>
-	</GroundCompany>
-	
-	
 	<GroundCompany Name="Imperial_Heavy_Assault_Company">
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>TEXT_IMPERIAL_HEAVY_ASSAULT_COMPANY</Text_ID>
@@ -143,7 +80,7 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>5</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -192,7 +129,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
-		<Population_Value>1</Population_Value>
+		<Population_Value>4</Population_Value>
 	</GroundCompany>
 	
 	<GroundCompany Name="Imperial_Heavy_Scout_Squad">
@@ -215,7 +152,7 @@
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
@@ -256,7 +193,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
-		<Population_Value>1</Population_Value>
+		<Population_Value>2</Population_Value>
 	</GroundCompany>
 	
 	<GroundCompany Name="Imperial_Heavy_Scout_Squad_Small">
@@ -276,24 +213,24 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Underworld</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>80</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Advanced_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>artillery</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>SPMAT_Walker, SPMAT_Walker, SPMAT_Walker</Company_Units>
+		<Company_Units>SPMA_Walker, SPMA_Walker, SPMA_Walker</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_spha_t.tga</Icon_Name>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -325,80 +262,9 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
-		<Population_Value>1</Population_Value>
+		<Population_Value>4</Population_Value>
 	</GroundCompany>
 	
-	
-	<GroundCompany Name="Imperial_Anti_Infantry_Brigade">
-		<Text_ID>TEXT_IMPERIAL_ANTI_INFANTRY</Text_ID>
-		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> T2B_Tank Plex_Soldier UC_Rebel_Buildable_Anti_Vehicle_Turret </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>20</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>180</Build_Cost_Credits>
-		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>30</Build_Time_Seconds>
-		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Vehicle_Factory</Required_Special_Structures>
-		<Required_Planets />
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
-		<Ship_Class>tank</Ship_Class>
-		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler</Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Icon_Name>i_button_tie_crawler.tga</Icon_Name>
-		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Tie_Mauler</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Mauler</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>180</Score_Cost_Credits>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_MAULER</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-		<Maintenance_Cost>0.05</Maintenance_Cost>
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>SELF_DESTRUCT</Type>
-				<Expiration_Seconds>3</Expiration_Seconds>
-			</Unit_Ability>
-			
-		</Unit_Abilities_Data>
-		
-		<Population_Value>1</Population_Value>
-	</GroundCompany>
-
-	<GroundCompany Name="Imperial_Anti_Infantry_Brigade_Small">
-		<Variant_Of_Existing_Type>Imperial_Anti_Infantry_Brigade</Variant_Of_Existing_Type>
-		<Company_Units> TIE_Crawler, TIE_Crawler, TIE_Crawler </Company_Units>
-		<Tech_Level>6</Tech_Level>
-		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-		<Max_Squad_Size> 3 </Max_Squad_Size>
-		<Damage>12</Damage> 
-	</GroundCompany>
-
 
 	<GroundCompany Name="Imperial_Scout_Trooper_Squad">
 		<LOD_Bias>5</LOD_Bias>
@@ -739,22 +605,22 @@
 	<!--multiplayer cantina-->
 	<GroundCompany Name="EN_Imperial_Pod_Walker_Company">
 		<Variant_Of_Existing_Type>Rebel_Pod_Walker_Company</Variant_Of_Existing_Type>
-		<Encyclopedia_Good_Against> Rebel_Trooper </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> T4B_Tank T2B_Tank UC_Rebel_Buildable_Anti_Vehicle_Turret </Encyclopedia_Vulnerable_To>
-		<Company_Units>Pod_Walker_Empire, Pod_Walker_Empire</Company_Units>
+		<!--<Encyclopedia_Good_Against> Rebel_Trooper </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> T4B_Tank T2B_Tank UC_Rebel_Buildable_Anti_Vehicle_Turret </Encyclopedia_Vulnerable_To>-->
+		<Company_Units>Pod_Walker_Empire, Pod_Walker_Empire, Pod_Walker_Empire</Company_Units>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Affiliation>Underworld</Affiliation>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Pod_Walker</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pod_Walker</SFXEvent_Fleet_Move>
 
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Population_Value>1</Population_Value>
+		<Population_Value>2</Population_Value>
 	</GroundCompany>
 	<!--multiplayer cantina-->
 		

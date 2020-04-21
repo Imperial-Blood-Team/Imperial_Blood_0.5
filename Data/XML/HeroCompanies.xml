@@ -140,6 +140,40 @@
 	</HeroCompany>
 	
 	
+	<HeroCompany Name="Bothan_Spy_Network">
+		<GUI_Row>0</GUI_Row>
+		<Text_ID>TEXT_HERO_UNIT_BSN</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>30</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Generic_Bothans</Company_Units>
+		<Icon_Name>i_button_scout_droid.tga</Icon_Name>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<SFXEvent_Build_Complete>Unit_Galactic_Announce_Probot</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Move>Unit_Galactic_Move_Probot</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Galactic_Move_Probot</SFXEvent_Fleet_Move>
+		
+		<Encyclopedia_Text>TEXT_TOOLTIP_BSN</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPY</Encyclopedia_Unit_Class>
+		<CategoryMask>NonCombatHero</CategoryMask>
+		<Population_Value>1</Population_Value>
+	</HeroCompany>
+	
+	
 	<HeroCompany Name="Bounty_Hunter_Team_E">
 		<GUI_Row>1</GUI_Row>
 		<Text_ID>TEXT_HERO_UNIT_BOUNTY_HUNTER</Text_ID>
@@ -386,7 +420,7 @@
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>

@@ -328,7 +328,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>3</Base_Level>
 		<Prev_Level_Base>Rebel_Star_Base_2</Prev_Level_Base>
-		<Next_Level_Base>Rebel_Star_Base_4</Next_Level_Base>
+		<Next_Level_Base></Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -486,9 +486,9 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>40</Size_Value>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Base_Level>4</Base_Level>
-		<Prev_Level_Base>Rebel_Star_Base_3</Prev_Level_Base>
+		<Prev_Level_Base></Prev_Level_Base>
 		<Next_Level_Base>Rebel_Star_Base_5</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -1125,7 +1125,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Prev_Level_Base>Empire_Star_Base_2</Prev_Level_Base>
-		<Next_Level_Base>Empire_Star_Base_4</Next_Level_Base>
+		<Next_Level_Base></Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
@@ -1272,12 +1272,12 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>40</Size_Value>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Base_Level>4</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Prev_Level_Base>Empire_Star_Base_3</Prev_Level_Base>
+		<Prev_Level_Base></Prev_Level_Base>
 		<Next_Level_Base>Empire_Star_Base_5</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>

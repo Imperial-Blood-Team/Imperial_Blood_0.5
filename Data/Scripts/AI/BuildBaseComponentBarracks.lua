@@ -52,7 +52,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"BaseForce",
-		"E_Ground_Barracks | R_Ground_Barracks = 1"
+		"Imperial_Command_Center | Rebel_Command_Center | E_Ground_Barracks | R_Ground_Barracks = 1"
 	}
 	}
 
