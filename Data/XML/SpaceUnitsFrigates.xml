@@ -174,7 +174,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>IMP_QUASAR.ALO</Space_Model_Name>
 		<Mass>0.999</Mass>
-		<Scale_Factor>0.70</Scale_Factor>
+		<Scale_Factor>10.0</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>1600</Autoresolve_Health>
@@ -184,7 +184,11 @@
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 		
-		
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<!--Currently no reserves -->
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>2.2</Max_Speed>
@@ -201,7 +205,7 @@
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Select_Box_Scale>300</Select_Box_Scale>
+		<Select_Box_Scale>30</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -239,11 +243,16 @@
 
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Death_Clone>Damage_Normal, Nebulon_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal</Death_Clone>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		
 		<HardPoints>
-
+			HP_Quasar_LC_01,
+			HP_Quasar_LC_02,
+			HP_Quasar_LC_03,
+			HP_Quasar_LC_04,
+			HP_Quasar_Engines,
+			Rebel_Hangar
 		</HardPoints>
 
 		<Target_Bones> MISSILE_TARGET00, MISSILE_TARGET01 </Target_Bones>
@@ -331,7 +340,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Nebulon</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-		
+			
 		</Unit_Abilities_Data>
 		
 		<Abilities SubObjectList="Yes">
@@ -364,6 +373,8 @@
 		<Population_Value>3</Population_Value>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 	</SpaceUnit>
+   
+
    
 <!-- Rebel -->
 
@@ -1452,7 +1463,7 @@
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>2.5</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor>
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -2569,7 +2580,7 @@
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>2.0</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor>
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -2620,30 +2631,37 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 
-		<Death_Clone>Damage_Normal</Death_Clone>
-
 		<HardPoints>
-			HP_Jedi_Cruiser_FL,
-			HP_Jedi_Cruiser_FR,
-			HP_Jedi_Cruiser_ML,
-			HP_Jedi_Cruiser_MR,
-			HP_Jedi_Cruiser_BL,
-			HP_Jedi_Cruiser_BR,
-			HP_Jedi_Cruiser_Shield_Gen,
-			HP_Jedi_Cruiser_Engines
+			HP_Venator_DHTL_01,
+			HP_Venator_DHTL_02,
+			HP_Venator_DHTL_03,
+			HP_Venator_DHTL_04,
+			HP_Venator_DHTL_05,
+			HP_Venator_DHTL_06,
+			HP_Venator_DHTL_07,
+			HP_Venator_DHTL_08,
+			HP_Venator_DML_01,
+			HP_Venator_DML_02,
+			HP_Venator_LC_01,
+			HP_Venator_LC_02,
+			HP_Venator_PT_01,
+			HP_Venator_PT_02,
+			HP_Venator_Engines,
+			HP_Venator_Shield_Generator,
+			HP_Venator_Fighter_Bay
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
-		<Icon_Name>i_button_venator.tga</Icon_Name>
+		<Icon_Name>i_button_jedi_cruiser.tga</Icon_Name>
 		<GUI_Model_Name>EV_VictoryStarDestroyer.alo</GUI_Model_Name>
 		<GUI_Distance>1100</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
