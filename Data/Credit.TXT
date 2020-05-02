@@ -1,5 +1,14 @@
 Projectiles, -Jeroenimo
+Gozanti, -Warb_Null
+Pelta Model, -Warb_Null
+Pelta Texture, -Sly442
 Bespin Refinery, -Warb_Null
 Profundity, -Warb_Null
 Raider Corvette, -Warb_Null
 Tie Aggressor, -Warb_Null
+Purge Troopers, -Warper243
+Storm Commandos, -Mobius13
+Venator, -ArvisTaljiks
+Victory, -ArvisTaljiks
+Quasar, -ArvisTaljiks
+Arquitens, -ArvisTaljiks

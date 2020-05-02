@@ -696,7 +696,7 @@
 		<SFXEvent_Hero_Respawned>Unit_Respawn_Veers</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Veers</SFXEvent_Fleet_Move>
 		
-		<Population_Value>1</Population_Value>
+		<Population_Value>3</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
