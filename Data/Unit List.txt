@@ -1,48 +1,38 @@
 Empire
-Tier 4
 SSD
-Tier 3
-Secutor
+TSD
 ISDII
 ISDI
-Tier 2
 VSDII
-Gladiator
 Interdictor
-Tier 1
 Arquitens
 Quasar
 Carrack
 Raider
+Gozanti
 
 Rebels
-Tier 3
 MC-80 Home One Type
 MC-80
-Starhawk
-Tier 2
-MC40a
+MC-75
 Mc-30c
 Assualt Frigate
-Tier 1
 Nebulon-B
 Quasar
+Pelta
 CR-90
 DP-20
+Hammerhead
 
 ASR
-Tier 4
 SSD
-Tier 3
 ISDII
 ISDI
-Tier 2
+TSD
 VSDII
 Venator
+Gladiator
 Acclamator
 Interdictor
-Tier 1
-Nebulon-B
-Arquitens
 Carrack
 CR-90

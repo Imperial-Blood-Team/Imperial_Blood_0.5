@@ -45,12 +45,35 @@
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 	
+	<Event Name="Spawn_Bragh">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Commander_Bragh_Team</Reward_Param1>
+		<Reward_Param2>Burnin_Konn</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Conquer_Malastare">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Malastare</Event_Param1>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+	</Event>
+	
+	<Event Name="Display_Text">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_CONQUER_CORUSCANT</Reward_Param1> 
+		<Reward_Param2>5</Reward_Param2>
+		<Prereq>Conquer_Malastare</Prereq>
+	</Event>
+
 	<Event Name="Spawn_Loring">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Grand_General_Kenner_Loring_Team</Reward_Param1>
 		<Reward_Param2>Malastare</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Conquer_Malastare</Prereq>
 	</Event>
 	
 	<Event Name="Spawn_Scythe">
@@ -58,15 +81,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Scythe_Star_Destroyer</Reward_Param1>
 		<Reward_Param2>Malastare</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
-	</Event>
-	
-	<Event Name="Spawn_Bragh">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Commander_Bragh_Team</Reward_Param1>
-		<Reward_Param2>Burnin_Konn</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Conquer_Malastare</Prereq>
 	</Event>
 	
 </Story>

@@ -704,8 +704,8 @@
 
 
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
 
 		<Max_Speed>3.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.16</Max_Rate_Of_Turn>
@@ -735,7 +735,7 @@
 		<Damage>70</Damage>
 		<Autoresolve_Health>10000</Autoresolve_Health>
 		<Shield_Points>5000</Shield_Points>
-		<Tactical_Health>5000</Tactical_Health>
+		<Tactical_Health>6300</Tactical_Health> <!-- was 6000 -->
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -952,8 +952,8 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
 
 		<Max_Speed>3.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.16</Max_Rate_Of_Turn>
@@ -979,7 +979,7 @@
 		<Damage>70</Damage>
 		<Autoresolve_Health>10800</Autoresolve_Health>
 		<Shield_Points>5800</Shield_Points>
-		<Tactical_Health>5000</Tactical_Health>
+		<Tactical_Health>6750</Tactical_Health> <!-- was 6000 -->
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -1380,9 +1380,9 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Damage>70</Damage>
-		<Autoresolve_Health>12200</Autoresolve_Health>
+		<Autoresolve_Health>15356.25</Autoresolve_Health>
 		<Shield_Points>6100</Shield_Points>
-		<Tactical_Health>6100</Tactical_Health>
+		<Tactical_Health>9256.25</Tactical_Health> <!-- was 6000 -->
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -1391,7 +1391,7 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Build_Cost_Credits>6500</Build_Cost_Credits>
+		<Build_Cost_Credits>7500</Build_Cost_Credits>
 		<AI_Combat_Power>2350</AI_Combat_Power>
 		<Build_Time_Seconds>78</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>

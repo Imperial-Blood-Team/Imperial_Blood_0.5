@@ -3,7 +3,7 @@
 
 	<HardPoint Name="HP_Quasar_LC_01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
             <Health>188.0</Health>  <!-- Was 250 -->
@@ -39,7 +39,7 @@
 	
 	<HardPoint Name="HP_Quasar_LC_02">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
             <Health>188.0</Health>  <!-- Was 250 -->
@@ -75,7 +75,7 @@
 	
 	<HardPoint Name="HP_Quasar_LC_03">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
             <Health>188.0</Health>  <!-- Was 250 -->
@@ -109,9 +109,9 @@
 
     </HardPoint>
 	
-	<HardPoint Name="HP_Quasar_LC_0">
+	<HardPoint Name="HP_Quasar_LC_04">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
             <Health>188.0</Health>  <!-- Was 250 -->
