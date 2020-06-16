@@ -1459,11 +1459,11 @@
 		<!--<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber Starviper_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>-->
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>EV_VSD.alo</Space_Model_Name>
+		<Space_Model_Name>EV_VSD_II.alo</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>1</Scale_Factor>
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -1535,7 +1535,6 @@
 			HP_VSD_DML_03,
 			HP_VSD_DML_04,
 			HP_VSD_DML_05,
-			HP_VSD_DML_06,
 			HP_Star_Destroyer_Tractor_Beam,
 			HP_VSD_Fighter_Bay,
 			HP_VSD_Shield_Generator,
@@ -1544,6 +1543,8 @@
 			HP_VSD_CM_02,
 			HP_VSD_CM_03,
 			HP_VSD_CM_04,
+			HP_VSD_CM_05,
+			HP_VSD_CM_06,
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>

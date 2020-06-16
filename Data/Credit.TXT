@@ -9,6 +9,5 @@ Tie Aggressor, -Warb_Null
 Purge Troopers, -Warper243
 Storm Commandos, -Mobius13
 Venator, -ArvisTaljiks
-Victory, -ArvisTaljiks
 Quasar, -ArvisTaljiks
 Arquitens, -ArvisTaljiks

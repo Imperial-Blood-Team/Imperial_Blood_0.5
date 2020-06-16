@@ -20,5 +20,61 @@
         <Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
         <Prereq>Universal_Story_Start</Prereq>
     </Event>
+	
+	<Event Name="Display_Text">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_INTRO_EMPIRE_EE</Reward_Param1>  
+		<Reward_Param2>5</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Commandrant_Hux">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Commandrant_Hux_Team</Reward_Param1>
+		<Reward_Param2>Jakku</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Sloane">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Ultimatum_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Randd">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Inflictor_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Jakku</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Raythe">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Dauntless_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Jakku</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Versio">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Eviscerator_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Jakku</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Rax">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Rax_Super_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Jakku</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
 
 </Story>
